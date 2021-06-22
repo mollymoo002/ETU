@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: #a4a5a6;
+    color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Photos/Cover-Texas.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.roles {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.intro-paragraph {
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+.cowboy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+
+.characters h3 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 23px;
+}
+
+.characters {
+    text-align: center;
+    display: block;
+}
+
+.materials a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 24px 17px;
+    text-align: center;
+    font-size: 27px;
+}
+.materials a:hover {
+    background-image: url("Photos/East-Texas.jpg");
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
