@@ -6,11 +6,11 @@ h1 {
     text-align: center;
 }
 
-.topnav {
+nav {
     overflow: hidden;
 }
 
-.topnav a {
+nav a {
     float: left;
     text-align: center;
     padding: 14px 16px;
@@ -19,7 +19,7 @@ h1 {
     color: black;
 }
 
-.topnav a:hover {
+nav a:hover {
     background-color: #a4a5a6;
     color: white;
 }
@@ -71,7 +71,7 @@ p {
     height: 50%;
 }
 
-.characters h3 {
+.characters h2 {
     text-align: center;
     padding-top: 30px;
     font-size: 23px;
@@ -82,16 +82,29 @@ p {
     display: block;
 }
 
-.materials a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 24px 17px;
-    text-align: center;
-    font-size: 27px;
+#etu_book {
+    position: relative;
+    display:inline-block;
+    left: 200px;
+    width: 400px;
+    height: 600px;
 }
-.materials a:hover {
-    background-image: url("Photos/East-Texas.jpg");
+
+.materials img {
+    transition: transform .7s;
+} 
+
+.materials img:hover {
+    transform: scale(1.1);
+}
+
+#savage_logo {
+    position: relative;
+    display: inline-block;
+    left: 600px;
+    bottom: 200px;
+    width: 450px;
+    height: 300px;
 }
 
 table, th, td {
